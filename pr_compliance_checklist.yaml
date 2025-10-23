@@ -1,0 +1,7 @@
+# pr_compliance_checklist.yaml
+pr_compliances:
+  - title: "Code Duplication"
+    compliance_label: true
+    objective: "Detect and minimize duplicated or repeated logic across the codebase."
+    success_criteria: "Shared logic is extracted into reusable methods, helpers, or services."
+    failure_criteria: "Similar or identical code blocks appear in multiple locations without reuse."
